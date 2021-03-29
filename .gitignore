@@ -33,10 +33,10 @@
 # .idea/artifacts
 # .idea/compiler.xml
 # .idea/jarRepositories.xml
-# .idea/modules.xml
-# .idea/*.iml
-# .idea/modules
-# *.iml
+.idea/modules.xml
+.idea/*.iml
+.idea/modules
+*.iml
 # *.ipr
 
 # CMake
@@ -144,6 +144,11 @@ fabric.properties
 
 # Android studio 3.1+ serialized cache file
 .idea/caches/build_file_checksums.ser
+
+.idea/.gitignore
+.idea/misc.xml
+.idea/inspectionProfiles/profiles_settings.xml
+.idea/vcs.xml
 
 ### Python template
 # Byte-compiled / optimized / DLL files
