@@ -177,9 +177,10 @@ l=[]
 l.append('first')
 l.append('second')
 l.append('third')
-
+l.index()
 print(l)
 # 出队操作
 print(l.pop())
 print(l.pop())
 print(l.pop())
+
