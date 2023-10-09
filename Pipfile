@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 config = "*"
+pywin32 = "*"
+opencv-python = "*"
+pyinstaller = "*"
+pymysql = "*"
+jinja2 = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.9"
+python_version = "3.11"

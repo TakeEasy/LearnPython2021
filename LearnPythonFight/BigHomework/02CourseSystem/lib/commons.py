@@ -34,3 +34,12 @@ def auth(role):
         return wrapper
 
     return login_auth
+
+
+def hahaha(a, b='ok', *, c='bbb'):
+    pass
+
+
+
+if __name__=='__main__':
+    pass

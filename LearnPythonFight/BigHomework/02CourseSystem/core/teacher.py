@@ -63,7 +63,7 @@ def choose_course():
         for index, course_name in enumerate(course_list_or_msg):
             print(f'编号:{index} 课程名:{course_name}')
 
-        choice = input('请输入学校编号').strip()
+        choice = input('请输入课程编号').strip()
         if not choice.isdigit():
             print('请输入数字')
             continue
